@@ -18,7 +18,7 @@ $(document).ready(function(){
 			$("#load").fadeOut(1000)
 
 			$("#message").fadeIn(10000)
-			$("body").css("background-color", "#f7bbac")
+			$("body").css("background-color", "#ffe2df")
 			x.play()
 			}
 		})
