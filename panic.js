@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	var x = document.getElementById("myAudio");
+
 	$("a").click(function(){
 		$("h1").fadeOut(500)
 		$("#load").fadeIn(5000)
@@ -16,6 +18,8 @@ $(document).ready(function(){
 			$("#load").fadeOut(1000)
 
 			$("#message").fadeIn(10000)
+			$("body").css("background-color", "#f7bbac")
+			x.play()
 			}
 		})
 	})

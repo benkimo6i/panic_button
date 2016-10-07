@@ -2,11 +2,13 @@
 body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	background-color: #fff;
 }
 
 h1 {
 	margin: 12% auto;
-	color: #47a3ff;
+	color: #b3d1d3;
 }
 
 #load {
@@ -19,13 +21,13 @@ a {
 	padding: 12px 16px;
 	font-size: 20px;
 	color: #fff;
-	background-color: #47a3ff;
-	transition: background-color 1s, border-bottom 1s;
+	background-color: #b3d1d3;
+	transition: background-color 1s, border-bottom 1s, border-radius 0.5s;
 }
 
 a:hover {
-	background-color: #3882cc;
-	border-bottom: 3px solid #222;
+	background-color: #bf8799;
+	border-bottom: 3px solid #444;
 	border-radius: 5px;
 }
 
@@ -33,7 +35,7 @@ a:hover {
     position: relative;
     width: 80%;
     height: 30px;
-    background-color: #fafafa;
+    background-color: #fbd9d1;
     display: none;
     margin: 0 auto;
     margin-top: 15%;
@@ -44,7 +46,7 @@ a:hover {
     position: absolute;
     width: 0;
     height: 100%;
-    background-color: #47a3ff;
+    background-color: #b3d1d3;
     display: none;
     border-radius: 5px;
 }
@@ -54,4 +56,5 @@ a:hover {
 	font-family: 'Harmattan', sans-serif;
 	font-size: 80px;
 	font-weight: lighter;
+	color: #fff;
 }
